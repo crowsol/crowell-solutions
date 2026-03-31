@@ -31,10 +31,10 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           ###### Repository/Build Configurations ######
-          app_location: "/" # Location of your index.html
-          api_location: "" # No API for this site
-          output_location: "" # Leave empty when skipping build
-          skip_app_build: true # Tells Azure NOT to look for package.json or lock files
+          app_location: "/" 
+          api_location: "" 
+          output_location: "" 
+          skip_app_build: true 
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
